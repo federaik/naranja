@@ -1,2 +1,2 @@
 # naranja
-naranja - CRUD
+naranja - CRUD (Create - Read - Update - Delete)
