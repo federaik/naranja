@@ -1,0 +1,19 @@
+{
+  "name": "naranja",
+  "version": "1.0.0",
+  "description": "naranja - CRUD (Create - Read - Update - Delete)\r aplicacion de estadisticas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federaik/naranja.git"
+  },
+  "author": "facu otta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/federaik/naranja/issues"
+  },
+  "homepage": "https://github.com/federaik/naranja#readme"
+}
