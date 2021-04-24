@@ -4,10 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Naranja</title>
+
+  <link rel="stylesheet" href="naranja.css">
 </head>
 <body>
-  Hoy juega BOOOOCA !!!
+
+<section> 
+  <h1>Naranja Mecánica</h1><hr>
+
+  <button onclick="editPlayerInForm()">Edit Selected</button>
+  <button onclick="deletePlayer()">Delete selected </button>
+
+  <!-- <h3 class="textColor">Players:</h3> -->
+
+  <div id="playersList">
+   
+  </div>  
+
+  <hr>
   
+<div id="flex" class="textColor">
+  First Name <input type="text" id="nombre"> <br>
+  Last Name <input type="text" id="apellido"> <br> 
+  Positions <input type="text" id="posicion"> <br>
+</div>
+  <button onclick="addPlayer()">Add new player</button>
+  <button onclick="editPlayer()">Update player</button>
+  <button onclick="clearForm()">Clear form</button>
+</section>  
+
+
+  <script src="script.js"></script>
+
 </body>
 </html>
