@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/federaik/naranja/issues"
   },
-  "homepage": "https://github.com/federaik/naranja#readme"
+  "homepage": "https://github.com/federaik/naranja#readme",
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
 }
+
+

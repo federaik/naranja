@@ -1,6 +1,7 @@
 // De aca vas a sacar los endpoints para pegarle al Backend por si queres tener como referencia
 // https://jsonplaceholder.typicode.com/
 
+
 // OVERVIEW
 
 /* 
@@ -36,3 +37,4 @@ responsePromise.then((postsJson) => {
 // traer albums: https://jsonplaceholder.typicode.com/albums
 // traer fotos: https://jsonplaceholder.typicode.com/photos
 // traer usuarios: https://jsonplaceholder.typicode.com/users
+
