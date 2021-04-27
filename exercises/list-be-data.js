@@ -15,17 +15,20 @@ const getUsers = () => {
 const listData = (users) => {  
 
   // document.getElementById('usersList').innerHTML = "";
+  let newUl = document.createElement("ul");
+  let currentDiv = document.getElementById("usersList");
+  currentDiv.appendChild(newUl)
 
-    users.forEach((user) => {
-    let newDiv = document.createElement("div");
-    let newUl = document.createElement("Ul");    
+  users.forEach((user) => {  
+        
     let newLi = document.createElement("li");
     newLi.textContent = user.name + " " + user.username + " " + user.email;        
+    newUl.appendChild(newLi)
     
-    let currentDiv = document.getElementById("usersList");
-    currentDiv.appendChild(newDiv);
-    newDiv.appendChild(newUl);
-    newDiv.appendChild(newLi);
+    
+    // currentDiv.appendChild();
+    // newDiv.appendChild(newUl);
+    // newDiv.appendChild(newLi);
   }) 
 }
 
