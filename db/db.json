@@ -1,5 +1,21 @@
 {
   "players": [
-    {"id": 1, "firstName": "Rambo"}
+
+    {"id": 1, "firstName": "Agustin", "lastName": "Foster", "posiciones": "Arquero"},
+
+    {"id": 2, "firstName": "Facundo", "lastName": "Ottalagano", "posiciones": "Defensor central"},
+
+    {"id": 3, "firstName": "Gaston", "lastName": "Ruiz Diaz", "posiciones": "Defensor central"},
+
+    {"id": 4, "firstName": "Rodrigo", "lastName": "Alegre", "posiciones": "Volante central"},
+
+    {"id": 5, "firstName": "Diego", "lastName": "Pace", "posiciones": "Volante derecho"},
+
+    {"id": 6, "firstName": "Federico", "lastName": "Ottalagano", "posiciones": "Volante izquierdo"},
+
+    {"id": 7, "firstName": "Fede", "lastName": "Montagna", "posiciones": "Delantero"},
+
+    {"id": 8, "firstName": "Nicolas", "lastName": "Montagna", "posiciones": "Delantero"}
+
   ]
 }
