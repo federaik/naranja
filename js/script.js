@@ -10,11 +10,15 @@ const getPlayers = () => {
 
 }
 
+const putPlayer = (player) => {
+  
+}
+
 const postPlayer = () => {
   // antes de hacer cualquier cosa, validar que los 3 campos esten llenos. Si no lo estan, mostrar un error de la forma que se te cante la verga
-  let inputName = document.getElementById('nombre');
-  let inputLastName = document.getElementById('apellido');
-  let inputPosicion = document.getElementById('posicion');
+  const inputName = document.getElementById('nombre');
+  const inputLastName = document.getElementById('apellido');
+  const inputPosicion = document.getElementById('posicion');
   if (inputName.value === '' || inputLastName.value === '' || inputPosicion.value === '') {
     return alert('Campo vacío');     
   }  
