@@ -1,30 +1,79 @@
 {
   "players": [
     {
-      "id": 6,
-      "firstName": "Federico",
-      "lastName": "Ottalagano",
-      "posiciones": "Volante izquierdo"
-    },
-    {
-      "id": 7,
       "firstName": "Fede",
-      "lastName": "Montagna",
-      "posiciones": "Delantero"
+      "lastName": "Ottalagano",
+      "posiciones": [
+        "Volante",
+        " Delantero"
+      ],
+      "id": 13
     },
     {
-      "id": 8,
-      "firstName": "Nicolas",
+      "firstName": "Facundo",
+      "lastName": "Ottalagano",
+      "posiciones": [
+        "Defensor central"
+      ],
+      "id": 14
+    },
+    {
+      "firstName": "Nico",
       "lastName": "Montagna",
-      "posiciones": "Delantero"
+      "posiciones": [
+        "Delantero",
+        " Defensor "
+      ],
+      "id": 15
+    },
+    {
+      "firstName": "Federico",
+      "lastName": "Montagna",
+      "posiciones": [
+        "Arquero",
+        " Defensor"
+      ],
+      "id": 16
+    },
+    {
+      "firstName": "Gastón",
+      "lastName": "Ruiz Diaz",
+      "posiciones": [
+        "Defensor central"
+      ],
+      "id": 17
+    },
+    {
+      "firstName": "Rodrigo",
+      "lastName": "Alegre",
+      "posiciones": [
+        "Volante central"
+      ],
+      "id": 18
+    },
+    {
+      "firstName": "Diego",
+      "lastName": "Pace",
+      "posiciones": [
+        "Volante derecho"
+      ],
+      "id": 19
     },
     {
       "firstName": "Agustin",
       "lastName": "Foster",
       "posiciones": [
-        "arquero"
+        "Arquero"
       ],
-      "id": 9
+      "id": 20
+    },
+    {
+      "firstName": "Juan Román",
+      "lastName": "Riquelme",
+      "posiciones": [
+        "El último enganche"
+      ],
+      "id": 21
     }
   ]
 }
